@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  background-color: #e6e9fb;
+}
+
+.empty-star {
+  color: #e6e9fb;
+}
+
+.full-star {
+  color: #ffff00;
+}
+
+.star:hover {
+  color: yellow;
+}
+
+input {
+  display: none;
+}
